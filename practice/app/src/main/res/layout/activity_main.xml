@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-18dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="181dp"
+        android:layout_height="40dp"
+        android:fontFamily="monospace"
+        android:text="Categories"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="276dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#F6F6F6"
+        android:text="Breakfast                     🥞"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="276dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#F6F6F6"
+        android:text="Lunch                           🥪"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="276dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F6F6F6"
+        android:text="Soups                          🍜"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="535dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="276dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F6F6F6"
+        android:text="Drinks                          🍹"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:cornerRadius="15dp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="276dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#F6F6F6"
+        android:text="Pastas                         🍝"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="276dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#F6F6F6"
+        android:text="Salads                          🥗"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="276dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#F6F6F6"
+        android:text="Desserts                      🎂"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="0dp">
+
+        <include layout="@layout/navbar" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

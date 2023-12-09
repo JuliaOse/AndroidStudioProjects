@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="15dp"
+    android:clickable="true"
+    app:cardCornerRadius="30dp"
+    android:outlineSpotShadowColor="@color/black">
+
+    <ImageView
+        android:layout_width="126dp"
+        android:layout_height="135dp"
+        android:src="@drawable/kale_soup" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:text="@string/kale_soup"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</androidx.cardview.widget.CardView>
